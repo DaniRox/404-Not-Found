@@ -1,0 +1,16 @@
+.div-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1, p{
+    margin: 1rem 0;
+}
+
+
+@media only screen and (min-width: 770px){
+    .div-texts{
+        margin: 0 6rem;
+    }
+}

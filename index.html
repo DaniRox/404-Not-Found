@@ -7,6 +7,21 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- protons -->
+    <link rel="stylesheet" href="./styles/protons/colors.css">
+    <link rel="stylesheet" href="./styles/protons/texts.css">
+    <link rel="stylesheet" href="./styles/protons/img.css">
+    <!-- atomms -->
+    <link rel="stylesheet" href="./styles/atoms/btn.css">
+    <link rel="stylesheet" href="./styles/atoms/div-texts.css">
+    <!-- moelecules -->
+    <link rel="stylesheet" href="./styles/molecules/header.css">
+    <link rel="stylesheet" href="./styles/molecules/main.css">
+    <link rel="stylesheet" href="./styles/molecules/footer.css">
+    <!-- templates -->
+    <link rel="stylesheet" href="./styles/templates/body.css">
 
     <link rel="icon" href="devchallenges.png" />
 
@@ -23,36 +38,32 @@
 
     <title>Devchallenges</title>
   </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+  <body class="body">
+    
+    <header class="header">
+      <span class="txt--l color--dark-gray txt--bold txt--upper">404 not found</span>
+    </header>
+
+    <main class="main">    
+
+      <img src="Scarecrow.png" alt="scarecrow" class="img">
+
+      <div class="div-texts">
+        <h1 class="txt--xl color--dark-gray txt--bold line-height--m">I have bad news for you</h1>
+
+        <p class="txt--m color--gray txt--regular line-height--s">The page you are looking for might be removed or is temporarily unavailable</p>
+
+        <button class="txt--s txt--bold color--white background--dark-gray btn txt--upper">Back to homepage</button>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    </main>
+
+    <footer class="footer">
+
+      <span class="txt--s color--light-gray txt--regular txt--center">created by username - devChallenges.io</span>
+
+    </footer>
+
   </body>
 </html>

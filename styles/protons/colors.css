@@ -1,6 +1,7 @@
 :root{
     --dark-gray: #333333;
     --gray: #4F4F4F;
+    --light-gray: #BDBDBD;
     --white: #ffffff;
 }
 
@@ -10,6 +11,10 @@
 
 .color--gray{
     color: var(--gray);
+}
+
+.color--light-gray{
+    color: var(--light-gray);
 }
 
 .color--white{

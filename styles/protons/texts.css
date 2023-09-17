@@ -4,23 +4,47 @@
     --space-mono:  'Space Mono', monoespacio;
 }
 
-.txt-s{
+.txt--s{
+    font-family: var(--space-mono);
     font-size: 0.8rem;
 }
 
-.txt-m{
+.txt--m{
+    font-family: var(--space-mono);
     font-size: 1rem;
 }
 
-.txt-l{
-    font-size: 1.4rem;
+.txt--l{
+    font-family: var(--space-mono);
+    font-size: 1.2rem;
+}
+
+.txt--xl{
+    font-family: var(--space-mono);
+    font-size: 2.9rem;
 }
 
 
-.txt-regular{
+.txt--regular{
     font-weight: 400;
 }
 
-.txt-bold{
+.txt--bold{
     font-weight: 700;
+}
+
+.txt--upper{
+    text-transform: uppercase;
+}
+
+.txt--center{
+    text-align: center;
+}
+
+.line-height--s{
+    line-height: 1.5rem;
+}
+
+.line-height--m{
+    line-height: 4rem;
 }
