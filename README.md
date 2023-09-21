@@ -8,7 +8,6 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
     <a href="https://danirox.github.io/404-Not-Found/">
       Solution
     </a>
